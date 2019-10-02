@@ -9,13 +9,14 @@ function scrollFunction() {
     // document.getElementById("navbar").style.padding = "30px 10px";
     document.getElementById("logo").style.height='40px';
     document.getElementById("logo").style.width='40px';
-    // document.getElementById("logo").style.marginTop='0px';
+    document.getElementById("logo").style.marginTop='5px';
     // document.getElementById("logo").style.marginBottom='0px';
 
 
-    p[0].style.fontSize = "17px";
+    p[0].style.fontSize = "18px";
     p[0].style.marginTop = "0px";
     p[0].style.marginBottom = "10px";
+
 
 
     var i;
@@ -47,6 +48,7 @@ function scrollFunction() {
     document.getElementById("logo").style.display='block';
     document.getElementById("logo").style.height='90px';
     document.getElementById("logo").style.width='81px';
+    document.getElementById("logo").style.marginTop='0px';
 
     //marginTop for element a in navbar
     var i;
